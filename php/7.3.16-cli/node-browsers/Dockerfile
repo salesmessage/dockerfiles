@@ -1,4 +1,4 @@
-FROM circleci/php:7.3.15-node-browsers
+FROM circleci/php:7.3.16-node-browsers
 
 RUN set -ex \
     && sudo apt update \

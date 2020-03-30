@@ -1,4 +1,4 @@
-FROM circleci/php:7.4.1-cli-buster
+FROM circleci/php:7.4.4-node-browsers
 
 RUN set -ex \
     && sudo docker-php-ext-install bcmath
